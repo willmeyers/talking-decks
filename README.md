@@ -4,7 +4,9 @@ Community made, annotated [Anki](https://apps.ankiweb.net/) decks for language l
 
 ## Why does this exist?
 
-1) I think this is kind of neat. 2) The script I wrote can be easily extended to other applications. 3) Collaborative learning tools are cool.
+1) I think this is kind of neat.
+2) The script I wrote can be easily extended to other applications.
+3) Collaborative learning tools are cool.
 
 ## Disclaimer
 
