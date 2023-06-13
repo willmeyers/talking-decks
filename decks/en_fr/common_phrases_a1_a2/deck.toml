@@ -1,0 +1,6 @@
+[deck]
+name = "Common French Phrases A1-A2"
+
+[voices]
+male = ["fr-FR-HenriNeural"]
+female = ["fr-FR-Wavenet-E"]
