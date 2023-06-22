@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>talking•decks | free annotated anki decks</title>
+        <style>
+            *,* {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                text-rendering: optimizeLegibility;
+                -webkit-font-smoothing: antialiased;
+                -moz-osx-font-smoothing: grayscale;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+
+            body {
+                margin: 0 auto;
+                padding: 3em;
+                display: flex;
+                flex-direction: column;
+                place-items: center;
+                gap: 3em;
+            }
+
+            main {
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+            }
+
+            @keyframes spaz {
+                0% {
+                    transform: rotate(0deg);
+                }
+                25% {
+                    transform: rotate(5deg);
+                }
+                50% {
+                    transform: rotate(0deg);
+                }
+                75% {
+                    transform: rotate(-5deg);
+                }
+                100% {
+                    transform: rotate(0deg);
+                } 
+            }
+            
+            .logo:hover {
+                animation: spaz .2s infinite linear;
+            }
+
+            .tag {
+                border: 1px solid #8d55ff;
+                color: #8d55ff;
+                border-radius: 4px;
+                padding: 0.2em 0.5em;
+                margin: 0 0.5em;
+                font-size: 0.8em;
+            }
+        </style>
+    </head>
+    <body>
+        <header style="display: flex; flex-direction: column;">
+            <img src="static/talkingdeckslogo.svg" alt="talking•decks logo" width="200px" class="logo">
+            <div>
+                <h1>talking•decks</h1>
+                <span>free annotated <a href="https://https://apps.ankiweb.net">Anki</a> decks</span>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h2>french</h2>
+                <ul>
+                    <li><a href="https://github.com/willmeyers/talking-decks/releases/download/v0.1.0/Common.French.Phrases.A1-A2.apkg">Common French Phrases A1-A2</a> <span class="tag">v0.1.0</span></li>
+                </ul>
+            </div>
+            <h2>more coming soon...</h2>
+        </main>
+        <footer>
+            <p>made with by <a href="https://willmeyers.net">will meyers</a>. contribute on <a href="https://github.com/willmeyers/talking-decks">github</a>.</span>
+        </footer>
+    </body>
+</html>
