@@ -1,0 +1,6 @@
+[deck]
+name = "Common Russian Phrases A1-A2"
+
+[voices]
+male = ["ru-RU-DmitryNeural"]
+female = ["ru-RU-DariyaNeural"]
